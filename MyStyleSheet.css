@@ -1,0 +1,78 @@
+html{
+background-color: grey;
+}
+
+h1{
+	font-family: 'Gloria Hallelujah', cursive;
+	color:orange;
+	margin-left: 10%;
+	font-size:70px;
+}
+
+h2{
+	font-family: 'Gloria Hallelujah', cursive;
+	color:orange;
+	margin-left: 10%;
+	font-size:40px;
+}
+
+ul{
+	list-style-type: none;
+ }
+ 
+#search{
+	text-indent: -9999;
+	background: url(labsprite.png);
+	background-position: -5px -79px;
+	position:fixed;
+	width: 64px;
+	height:64px;
+	top: 50px;
+	left: 10px;
+}
+#search a {
+	display: block;
+	height: 64px;
+	text-indent: -9999px;
+}
+	
+#social{
+	float:right;
+	list-style: none;
+	padding: 0px;
+}
+
+#social li{
+	float:left;
+	margin: 0px 10px;
+	background: image(labsprite.png);
+}
+
+#social a{
+	text-indent: -9999px;
+	height: 64px;
+}
+	
+#google{
+	background: url(labsprite.png);
+
+	background-position: -79px -5px;
+}
+#facebook{
+	background-position: -5px -5px;
+		background: url(labsprite.png);
+
+}
+#twitter{
+	background-position: -79px -79px;
+		background: url(labsprite.png);
+
+}
+
+.back_to_top a{
+background:url(up-sml.png) no-repeat;
+padding-right:30px;
+display:inline;
+
+}
+
